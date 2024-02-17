@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  width: auto;
+  color: #000;
+  background-color: #a30101bd;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: bold;
+  display: flex;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.header .nav-items {
+  width: auto;
+  padding: 0 10px;
+}
+
+.header .nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header .nav-items > ul > li {
+  cursor: pointer;
+  padding: 40px 10px 0 0;
+  font-size: large;
+}
+
+.restaurant-list {
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.restaurant-menu {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
